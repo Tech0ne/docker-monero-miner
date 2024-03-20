@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 WORKDIR /app/
 
 RUN apt-get update
-RUN apt-get install -y git build-essential cmake libuv1-dev libssl-dev libwloc-dev
+RUN apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 
 RUN git clone https://github.com/xmrig/xmrig.git
 
